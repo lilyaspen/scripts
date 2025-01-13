@@ -50,7 +50,6 @@ Restart=on-failure
 WantedBy=multi-user.target
 EOF
 
-systemctl restart 3proxy
-systemctl enable 3proxy
 systemctl daemon-reload
 systemctl restart 3proxy
+systemctl enable 3proxy
